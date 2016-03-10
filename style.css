@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
+#resistor {
+  background: #cccc9a;
+  border: 1px solid grey;
+  padding: 0 20px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#resistor > div {
+  width: 30px;
+  height: 100%;
+  margin: 0 15px;
+  display: inline-block;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+#resistor > div:last-child {
+  margin-left: 40px;
+}
+
+#answer {
+  margin-left: 10px;
+}
